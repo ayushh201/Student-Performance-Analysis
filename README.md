@@ -29,23 +29,38 @@ The primary software used for the project is Python 3, with all dependencies ins
 ## 7. Methodology Summary
 The methodology of the project can be summarized in the following steps:
 Data Collection: The dataset is collected, which typically includes student attributes such as parental level of education, gender, race ethnicity, test preparation, reading-writing scores, etc.
+
 Exploratory Data Analysis (EDA): A thorough analysis is performed to identify patterns, correlations, and relationships between features and the target variable. 
+
 Data Preprocessing: This includes handling missing values, encoding categorical variables, scaling numerical values, and splitting the dataset into training and testing sets.
+
 Model Training: Multiple machine learning models are trained on the dataset, including Linear Regression, Ridge Regression, Random Forest, CatBoost, AdaBoost, XGBRegressor, Lasso, K-Nearest Neighbors, and Decision Tree.
+
 Model Evaluation: The models are evaluated using metrics such as Root Mean Squared Error (RMSE), Mean Squared Error (MSE), and R² score for both the training and testing sets.
+
 Model Selection: Based on the performance metrics, the best-performing model is selected for prediction and analysis.
+
 Results Interpretation: The results are analyzed to understand the key factors influencing student performance, and the insights are used for recommendations.
 
 ## 8. Machine Learning Algorithms Applied
 The following machine learning algorithms were applied in the project:
+
 Linear Regression: A simple approach to model the relationship between the dependent and independent variables.
+
 Ridge Regression: A variation of linear regression that includes regularization to reduce overfitting.
+
 Random Forest: An ensemble method using multiple decision trees to improve accuracy and prevent overfitting.
+
 CatBoosting: A gradient boosting algorithm optimized for categorical features.
+
 AdaBoost: An ensemble technique that adjusts the weights of weak learners to improve performance.
+
 XGBRegressor: A powerful boosting algorithm that is highly effective in regression tasks.
+
 Lasso Regression: A regression technique that uses L1 regularization to select features.
+
 K-Nearest Neighbors (KNN): A non-parametric method that makes predictions based on the closest training examples in the feature space.
+
 Decision Tree: A tree-like model used for classification and regression tasks.
 
 ## 9. Model Evaluation Table
