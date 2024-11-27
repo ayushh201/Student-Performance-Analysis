@@ -14,13 +14,21 @@ The programming language used for this project is Python, which is widely recogn
 
 ## 5. Tools & Python Libraries Used
 The following tools and Python libraries were utilized for the project:
+
 Pandas: For data manipulation, cleaning, and analysis.
+
 NumPy: For handling arrays and mathematical operations.
+
 Matplotlib & Seaborn: For data visualization and plotting graphs.
+
 Scikit-learn: For machine learning models and evaluation metrics.
+
 XGBoost: For implementing the XGBRegressor model.
+
 CatBoost: For implementing the CatBoost model.
+
 Statsmodels: For statistical analysis and model evaluation.
+
 Jupyter Notebook: For interactive coding, analysis, and visualization.
 
 ## 6. Software
@@ -77,4 +85,4 @@ Decision Tree: A tree-like model used for classification and regression tasks.
 | CatBoosting Regressor  | 3.0427             | 6.0086          | 2.4054            | 4.6125         | 0.9589                 | 0.8516             |
 | AdaBoost Regressor     | 5.8179             | 6.0791          | 4.7580            | 4.6871         | 0.8499                 | 0.8481             |
 
-The Random Forest, Linear Regression and Decision Tree models performed exceptionally well, with lower RMSE and higher R² scores compared to other models.
+The Random Forest, Linear Regression and Ridge models performed exceptionally well, with lower RMSE and higher R² scores compared to other models.
